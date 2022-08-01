@@ -1,0 +1,149 @@
+body{ 
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;  
+    
+}
+
+header{
+    display: flex; 
+    padding: 15px;  
+    justify-content: center;
+    
+}
+
+.container{
+    display: flex;
+    letter-spacing: 5px;   
+    
+    
+}
+
+.logo{
+    display: flex;
+    height: 80px;   
+    
+    
+}
+
+menu{
+    display: flex;   
+    
+    
+}
+
+nav ul, nav li{
+    display: flex;
+    list-style-type: none;     
+    margin: 50px;
+    
+}
+
+nav ul{
+    display: flex;
+    
+    
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+nav .active, nav a:hover{
+    background-color: black;
+    background-size: 5px;
+    font-size: large;
+    color:red;
+    
+
+}
+
+.Fotoprincipal{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner{
+    background-image: url('./images/banner1.jpg');
+    display: flex;
+    margin: 300px;
+    margin-bottom: 800px;
+    background-size: contain;
+    background-position: center;
+    justify-content: center;
+}
+
+.frase {
+    display: flex;
+
+}
+
+.column{
+    flex-direction: column;
+}
+
+
+.banner_headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_options{
+    height: 210px;
+    display: flex;
+    justify-content:  baseline;
+    align-items: flex-end;
+    margin-top: 500px;
+}
+
+.banner_headline h1{
+    color:blue;
+    font-size: 70px;
+    text-shadow: 5px 5px 5px 5px #5555;
+    max-width: 350px;
+}
+
+.banner_headline h2{
+    color:#FFF;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px 0px #5555;
+    margin-top:30px;
+}
+
+.banner1,.banner2,.banner3{
+    color:black;
+    padding: 20px;
+    flex:1;
+    font-size: 20px;
+}
+
+div .box {
+	display: inline;
+    justify-content: center;
+   
+}
+
+
+
+.geral .box{
+    display: flex;
+}
+
+.biografiaimage{
+margin: 50px;
+padding: 50px;
+display: flex;
+justify-content: center;
+}
+
+
+
+
+
+
